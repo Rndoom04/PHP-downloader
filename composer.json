@@ -1,0 +1,25 @@
+{
+    "name": "rndoom04/downloader",
+    "description": "PHP simple file downloader - send file to download.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Slavomír Kollert",
+            "email": "info@kollertslavomir.cz"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "skyzyx/mimetypes": "~1.1.1"
+    },
+    "autoload": {
+        "files": [ "src/main.php" ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Rndoom04\\downloader\\": "src/"
+        }
+    }
+}
